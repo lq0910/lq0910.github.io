@@ -10,7 +10,7 @@ k3s离线镜像仓库地址：https://github.com/k3s-io/k3s/releases
 // 导入离线镜像命令
 sudo k3s ctr images import k3s-airgap-images-amd64.tar
 ```
-![image](https://github.com/user-attachments/assets/f833b006-9c67-449f-a179-0d3db81994f7)
+![image](https://github.com/user-attachments/assets/4811b1c1-963e-4fa2-9d0a-2ee68c4b61c2)
 
 
 2、运行一段时间，更新我们的pod后，会出现拉取镜像失败导致pod无法启动，状态显示ContainerCreating
